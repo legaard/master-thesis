@@ -1,0 +1,120 @@
+\documentclass[a4paper, 12pt, twoside]{report}
+
+%---------- PACKAGES -----------%
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{parskip}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr}
+
+%---------- HEADER AND FOOTER STYLING -----------%
+\fancyhf{} %clear header
+\fancyhead[RO]{\rightmark}
+\fancyhead[LE]{\leftmark}
+\fancyfoot[LE, RO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+%---------- SETTINGS -----------%
+\setcounter{chapter}{-1}
+\graphicspath{{images/}}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{}{0pt}{}{}
+
+%---------- COMMANDS AND ENVIRONMENTS -----------%
+\definecolor{tblue}{RGB}{83,109,254}
+\newcommand{\tquote}[2] {
+\vspace{12pt}
+\Huge\centerline{\textcolor{tblue}{\textbf{\textit{"}}}}\normalsize
+\emph{#1}
+\hfill\textcolor{tblue}{\textbf{-- #2}}
+\vspace{12pt}
+}
+
+\title{Increasing Economic Awareness Using Emergent Display in a Domestic Context}
+\author{Christian Hannesbo Lorentzen \and Lasse Legaard}
+\date{15\textsuperscript{th} of June, 2017}
+
+%---------- DOCUMENT START -----------%
+\begin{document}
+
+%---------- title page -----------%
+\begin{titlepage}
+  \includepdf[pages=1]{title-and-chapters.pdf}
+\end{titlepage}
+
+%---------- acknowledgement -----------%
+\chapter*{Acknowledgement}
+\thispagestyle{empty}
+\input{acknowledgement}
+
+%---------- abstract -----------%
+\begin{abstract}
+  \input{abstract}
+\end{abstract}
+
+%---------- table of content -----------%
+\tableofcontents
+\clearpage
+\pagestyle{fancy} % set page style to include header and footer
+
+%---------- thesis content -----------%
+\includepdf[pages=2]{title-and-chapters.pdf}
+\chapter{Introduction}
+\label{ch:introduction}
+\input{chapters/0-introduction}
+
+\includepdf[pages=3]{title-and-chapters.pdf}
+\chapter{Framing the Domain}
+\label{ch:framing-the-domain}
+\input{chapters/1-framing-the-domain}
+
+\includepdf[pages=4]{title-and-chapters.pdf}
+\chapter{Establishing a Direction}
+\label{ch:establishing-a-direction}
+\input{chapters/2-establishing-a-direction}
+
+%\includepdf[pages=4]{title-and-chapters.pdf}
+\chapter{Related Work}
+\label{ch:related-work}
+\input{chapters/3-related-work}
+
+%\includepdf[pages=4]{title-and-chapters.pdf}
+\chapter{Exploring the Design Space}
+\label{ch:exploring-the-design-space}
+\input{chapters/4-exploring-the-design-space}
+
+%\includepdf[pages=4]{title-and-chapters.pdf}
+\chapter{Field Studies and Evaluation}
+\label{ch:field-studies-and-evaluation}
+\input{chapters/5-field-studies-and-evaluation}
+
+%\includepdf[pages=4]{title-and-chapters.pdf}
+\chapter{Discussion}
+\label{ch:discussion}
+\input{chapters/6-discussion}
+
+%\includepdf[pages=4]{title-and-chapters.pdf}
+\chapter{Conclusion}
+\label{ch:conclusion}
+\input{chapters/7-conclusion}
+
+%---------- appendix -----------%
+\appendix
+\addcontentsline{toc}{chapter}{Appendix}
+\addcontentsline{toc}{section}{Interview Guide -- Financial Adviser}
+\includepdf[pages=-]{appendix/interview-financial-adviser.pdf}
+\label{app:interview-guide-financial-adviser}
+\addcontentsline{toc}{section}{Interview Guide -- Couple/Family}
+\includepdf[pages=-]{appendix/interview-families.pdf}
+\label{app:interview-guide-families}
+
+%---------- bibliography -----------%
+\pagestyle{empty}
+\bibliography{references}
+\bibliographystyle{plain}
+
+\end{document}
