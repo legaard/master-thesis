@@ -1,0 +1,529 @@
+﻿Increasing Economic Awareness using Emergent Displays in a Domestic Context
+________________
+Project Brief / Direction        3
+\chapter{Introduction} (~3-5 pages)        4
+\section{Research Question(s)}        4
+\section{Motivation}        5
+\subsection{Client… Maybe?}        5
+\subsection{Target Group}        5
+\subsection{Economic Awareness}        5
+\section{Research/design approach}        5
+\section{Thesis Outline}        5
+\chapter{Framing the Domain} (~10 pages)        5
+\section{Designing Technology for the Home}        6
+\subsection{Domestic Routines}        7
+\subsection{Ubiquitous Computing in the Home}        8
+\section{Personal Financial Management}        9
+\subsection{Segmenting Financial Customers}        12
+\chapter{Methods} (~ 1-1,5 pages)        14
+\chapter{Establishing a Direction} (~10-15 pages)        14
+\section{Preliminary Interviews}        15
+\subsection{Financial Adviser}        15
+\subsection{Family Mother}        16
+\subsection{Young Couple}        17
+\section{Workshop}        18
+\subsection{Warm-Up Exercises}        19
+\subsubsection*{“Draw Your Economy”}        20
+\subsubsection*{Floor plan}        21
+\subsubsection*{Emoticonometer}        21
+\subsubsection*{Voting}        22
+\subsection{Exploration Kit}        22
+\subsubsection*{Provotypes}        23
+\subsubsection*{Working with the Exploration Kit}        24
+\section{Data Analysis and Initial Findings}        26
+\subsection{Technology Arrangements}        27
+\subsection{Seamless Context Integration}        27
+\subsection{Daily Routines}        28
+\subsection{Data Representation}        29
+\chapter{Related Work} (~5-7 pages)        29
+\section{Ambient Information Systems}        30
+\subsection{Information Capacity}        31
+\subsection{Notification Level}        32
+\subsection{Representational Fidelity}        32
+\subsection{Aesthetic Emphasis}        33
+\section{Informative Art}        33
+\section{Personal Reflection}        35
+\chapter{Exploring the Design Space} (~15 pages)        36
+\section{Ideation}        36
+\section{Low fidelity prototyping}        36
+\section{High fidelity prototyping}        36
+\chapter{Field Studies and Evaluations} (~5 pages)        38
+\chapter{Future Potentials} (~2-3 pages)        39
+\chapter{Conclusion} (~ 1 page)        39
+
+
+Project Brief / Direction
+The digitalisation of money and banking has made people disconnected and unaware of their daily spendings, therefore we want to increase their economic awareness / consciousness by visualising the intangible interactions with money. This involves exposing people to their spendings (habits) through an artefact or system integrated in the home with the goal to make them reflect and thereby more aware and connected to their economic situation. An underlying conception is that people who are more economically aware are also more economically responsible.
+
+
+We need to define economic awareness in a way that allows us to measure / determine / talk about whether people have become more aware of their economic situation.
+How objective / subjective is economic awareness? Measurement vs. people’s own perception of their economic awareness.
+
+
+Which financial aspects are most influential on people’s economic awareness?
+
+
+Understanding the home as design context.
+
+
+* How should we design an economic visualisation system for the home? 
+   * How does it fit into the context?
+   * What should the visualisation be like (metaphors)?
+   * How do multiple users interact with the system?
+        
+Findings from interviews with the financial adviser and families, along with mock-ups and low fidelity prototypes afterwards will determine the direction of our project and which economic visualisation system we create. At this point we should know more precisely which related work to rely on and include in the report. 
+\chapter{Introduction} (~3-5 pages)
+#Maybe a brief history of money (very informal)
+#Dematerialisation of money; multi-purposes devices become the way to interact with money. Consequence?
+#Designing for the home
+#FinTech: A rising interest in how technology can be used to foster new and revolutionary banking experiences.
+#Economic awareness (psychology literature on consciousness / awareness / cognition) OR customer empowerment. Shortly elaborate on our view of economic awareness. 
+#Our contribution
+#Technology as a vehicle for financial awareness – reinstating the physically disengaged matter (money) through aesthetic artifacts augmented by a light interface.
+#Maybe something about how the industry shows an increasing interest in Financial Technology (FinTech).
+\section{Research Question(s)}
+Maybe not a section but rather a box in some section.
+1: “How can visualisation of intangible interaction with money influence individuals’ economic awareness, and to what degree does it create a healthier economic behaviour?“
+
+
+2: “How does visualization of financial interactions within the home influence individuals’ economic awareness, and to what degree does it foster/promote a healthier economic behaviour?”
+
+
+3: “Something about the qualities of systems created for a domestic context… Also something about the sensitive nature of the information being conveyed…”
+
+
+Which factors are important when designing for (financial) interactions in a home context?
+What are the main financial elements in obtaining economic awareness?
+\section{Motivation}
+\subsection{Client… Maybe?}
+#What are they trying to achieve right now with their technology.
+\subsection{Target Group}
+As described in… the nature of technology is slowly becoming more and more omnipresent and consequently
+#social awareness
+#Privacy: Hide private / sensitive data when visitors are in the home
+#Adaptable: Able to show data relatively to the constellation of people. Information that is relevant to the people who are present
+\subsection{Economic Awareness}
+\section{Research/design approach}
+#Talk about research through design -- max 1-2 papers.
+\section{Thesis Outline}
+\chapter{Framing the Domain} (~10 pages)
+This chapter provides insights into the domains of personal financial management and technology for the home which constitute the main areas of interest in our thesis. The purpose is to create a general foundation… 
+#Reformulate or extend
+#Might make sense to present examples of current commercial and research technologies in “Designing Technology for the Home”
+\section{Designing Technology for the Home}
+The home is a dwelling place where inhabitants find refuge and safety; it is a place of security and protection where everyday cares fade and the things and people that one loves become the focus. It establishes a sense of belonging somewhere in the world and can have various physiological influences on the inhabitants, ranging from behavioral and emotional to even affect the overall mental health \cite{boutruche2008raising}. Designing technology for this context requires an understanding of the home as a ‘lived in’ environment where technology is used and integrated in numerous ways and where many different activities are undertaken. The home is a messy place where rooms often have multiple purposes and are configured by the inhabitants to fit their routines and specific needs. The challenges of designing for this context stand in stark contrast to the ones faced in the work sphere where information technology has been widely used for decades. Technology for the work sphere focuses on dedicated support of particular work activities that are isolated from the environment in which the systems are placed. As a consequence, the design techniques have focused on supporting the construction of dedicated systems for particular kinds of work rather than a broader consideration of the system and the space which it is used in \cite{hughes1998understanding}. For this reason, we must be careful not to use the familiar concepts derived from the workplace when designing for the home as there is a risk of migrating a set of values that may be inappropriate for the domestic context \cite{crabtree2003finding}. As Gaver phrases it \cite{gaver2001designing}:
+
+
+\tqoute{There is a danger that as technology moves from the office into our homes, it will bring along with it workplace values such as efficiency and productivity at the expense of other possibilities.}{Gaver, 2001}
+
+
+Intuitively we know that the workplace and home are indeed very different domains, but the challenge is not simply one of understanding this, rather it is one of developing insights into how the home is different in order to create technologies that are fitting and appropriate to the setting. Hughes et al. have investigated the role of technology in the domestic environment with a focus on the home as a ‘lived space’ and how technology can be ‘made at home’ in such a setting \cite{hughes1998understanding}. They found an important theme to be the aesthetic character of the home, as it is an essential part of the transformation of a house into a home. Inhabitants work at their houses by decoration and configuration in order to make them into homes and these aesthetically focused ‘home making’ activities are of great importance to them as they encompass choices that reflect both personality and lifestyle. This emphasizes that the aesthetics are not to be taken lightly when designing technology for the home; it might even be a prerequisite that it is deemed aesthetically pleasing to be considered let into the home. However, there is a natural compromise between the aesthetic and functional traits of domestic technology. The more crucial the functionality is considered to be, the more willing we are to compromise on the aesthetics. In this regard, it is important to be aware of the close relationship that exists between the aesthetic and practical organisation of the home as these are closely intertwined \cite{hughes1998understanding}.
+\subsection{Domestic Routines}
+Researchers working in the field of domestic technology have identified the everyday domestic routines as a significant and highly interesting characteristic of the context \cite{edwards2001home,crabtree2004domestic,tolmie2002unremarkable}. Tolmie et al. describe how routines essentially bind everyday life together by enabling inhabitants to take action without constantly having to reason about their activities \cite{tolmie2002unremarkable} -- routines are what makes everyday life flow: 
+
+
+\tquote{Routines are the very glue of everyday life, encompassing innumerable things we take for granted such that each ordinary enterprise can be undertaken unhesitatingly… Routines help provide the grounds whereby the business of home life gets done. Routines mean that people can get out the door, feed themselves, put the children to bed, and so on, without having to eternally take pause and invent sequences of action anew or open up their every facet for inspection or challenge or to constantly have to account for what they are doing with explanations or rationales.}{Tolmie et al., 2002}
+
+
+Crabtree et al. have studied the routines of the home by explicating the practical action that inhabitants routinely engage in, i.e. the reoccurring sequences of practical actions \cite {crabtree2004domestic}. They found the routines related to production and consumption of communication in the home particularly interesting and have, based on these routines, constructed a set of key organizational features that may instruct the development and placement of technology in the home. The features include \emph{Ecological Habitats}, \emph{Activity Centres} and \emph{Coordinate Displays} and represent the patterns of technologically mediated activity in the home \cite{rodden2004between}. Ecological habitats are places where technological artefacts and media live and where inhabitants go to find specific resources. The artefacts are placed in these ecological habitats as a matter of routine use and are thus easily located; habitats include places such as desks, shelves and tables. Activity centres are places where artefacts are recurrently manipulated and information transformed. Ecological habitats and activity centres may be different places but can also coincide; a noticeboard may at one time be a habitat for information about important upcoming events and at another a centre where the information supports social interaction. Likewise, the desk might at one time be a habitat where books, documents and reminders live and at another a centre where reports are written and emails sent. Coordinate displays are places where artefacts and media are displayed in order for inhabitants to coordinate their activities. They are constructed at easily visible sites with the purpose to trigger practical actions such as remembering to pay a bill or buy tickets for the match. An important point here is the fact that it might not be the same person who places the reminder to pay the bill and actually takes action; the displays act as ways for the inhabitants to coordinate action. Coordinate displays may also coincide with ecological habitats or activity centres. Taking the example of the noticeboard, it may act as a display for information that enables the inhabitants to coordinate social activities. As the examples indicate, it is important to remember that even though the three organizational features are distinct, the places in which they are situated often overlap, meaning the places will take on different functions at different times. The organizational features serve as conceptual and analytic resources to help guide the placement of domestic technology so it may meet the daily needs of the inhabitants. Identification of the ecological habitats, activity centres and coordinate displays in a particular setting, thus provides insights into prime sites for domestic technology deployment \cite{crabtree2003finding}.
+\subsection{Ubiquitous Computing in the Home}
+The domestic environment has received a great deal of attention from the ubiquitous computing community, especially through purpose built ‘lab houses’ that aim to explore both the potentials and shortcomings of current technology and infrastructure as well as visions of the future home e.g. \cite{kidd1999aware}. While exploring the potential of full blown ‘smart homes’ is an important endeavour, so is considering the constraints of the real world on the technologies we design. As Edwards and Grinter put it \cite{edwards2001home}:
+
+
+\tquote{...new homes may eventually be purpose-built for such smart applications, existing homes were not designed as such. Perhaps homeowners may decide to "upgrade" their homes to support these new technologies. But it seems more likely that new technologies will be brought piecemeal into the home; unlike the "lab houses" that serve as experiments in domestic technology today, these homes will not be custom designed from the start to accommodate and integrate these technologies.}{Edwards and Grinter, 2001}
+
+
+This predicted piecemeal integration of technology into the home calls for research that complements the current holistic approach to domestic technology by considering how inhabitants might bring domestic technology into their ‘dumb’ homes. In this regard, research has broadly focused on three different approaches to the development of interactive domestic technology \cite{rodden2003evolution}: \emph{Information Appliances} which are self-contained interactive devices with specific functionality. These are often constructed by layering interactive functionality onto existing household appliances, for example using touch screens. \emph{Interactive Household Objects} combine existing household objects with interactive capabilities to create new forms of interaction which often build upon the values associated with the existing household object. And lastly \emph{Augmented Furniture} where interactive capabilities are added to the furniture in such a way that interaction is mediated through embedded sensors detecting actions with the furniture.
+
+
+#Unremarkable computing vs remarkable computing (might potentially get own section as it combines domestic routines and ubiquitous computing)
+
+
+#Researchers have widely applied Mark Weiser’s vision of ubiquitous computing to the home with a focus on augmenting the environment with technology in order to support domestic activities within them. The quick progress of technology development in recent years has brought computers and internet into every home which created the foundation of a new field of research concerned with the “smart home”. 
+\section{Personal Financial Management}
+A significant amount of our daily decisions and routines are rooted in money. Everything from buying basic commodities to planning for buying a new house is weaved into our financial values and habits. Many commercial tools -- mostly apps \cite{mint,spiir,levelmoney,homebudget,moneylover} -- have been developed to support and engage people in personal finances, however the majority of these tools focus on extensive data visualization and/or economic planning which is proclaimed to fail in real-life situations \cite{snow2015fixing}. Also, since these tools are mainly deployed on multi-purpose platforms, such as smartphones or laptops, many applications are fighting for our attention once we engage with these devices and consequently users might find themselves roaming social networks, making phone calls or playing games instead of staying in touch with their finances \cite[p.~3894]{coleman2008nestegg}. Even though money is a substantial part of our life, financial management and interactions (e.g. saving, trading or buying) have not received much attention from the HCI community.
+Kerber et al. created a household account book which is able to capture data from receipts using optical character recognition \cite{kerber2014towards}. This feature was used to ease the process of entering data, but aside from that their solution is not that different from today’s smartphone applications. A different and very interesting take on personal finances is the future-focused smartphone application Weekly \cite{weekly}. Based on a spending goal and daily transactions the application is able to provide users with a financial forecast, e.g. spending less money than planned results in a sunny forecast whereas spending more leads to a rainy forecast. A more physical approach to tracking finances is SmartPiggy; a smartphone-connected piggy bank which uses gamification to help users keep track of multiple saving targets \cite{stockinger2013smartpiggy}. Many similar products have been developed for commercial use \cite{ernit,kash,porkfolio}.\\
+In 2014 Kaye et al. \cite{kaye2014money} conducted a foundational study where they investigated how people keep track of their personal finances. The study excluded financial professionals and people who systematically study finances and aimed to achieve general diversity in terms of age, income, assets, job and the presence of children and partners. In the paper the authors present three main findings: emotional reasoning for financial decisions, tools for tracking money and accounting for the unknown; the latter refers to the inability to predict future events that have an impact on personal finances and is not of interest to our project. According to Kaye et al. [ibid] most of our economic decisions are based on emotional grounds, which might not come as surprise (to some) since the notion of homo economicus, i.e. the idea that humans are self-interested actors who make economic decisions based on rational judgement, has been declared obsolete within economic theories \cite{REFERENCE}. The researchers found that people usually acted upon existing knowledge, prior experiences, worries, personal values and future dreams meaning that spendings are not always based on profit maximization or rational reasoning.
+Their second finding is related to tools for tracking personal finances. In general tools were divided into two groups, namely paper systems and digital systems. The paper-based systems varied from simple index cards to more elaborate lists and calendars, and were often optimized for people’s financial focus (income, savings, stocks, etc.). Surprisingly the digital systems were not very popular. People expressed concerns regarding security and found the commercial aggregations systems (digital systems developed to provide a financial overview) somewhat frustrating mainly due to a poor user experience and lack of freedom. What is interesting here is that most people did not use a dedicated tool, however \emph{“people’s sense of their finances came from occasional glimpses at the complex whole, rather than a concerted and coherent overview of their entire situation...”} \cite[p.~562]{kaye2014money} meaning that people will occasionally review the last couple of transactions and look for anything that deviates from the expected. In relation to this Kaye et al. coins the term “financial touch” which is comparable to our definition of economic awareness, however their notion also includes temporality, i.e. having ephemeral or transitory financial interactions.
+By the end of the paper the researchers come with some general thoughts and observations. First of all, none of the participants seemed to use systems that integrate all aspects of a financial life, suggesting a need for rethinking existing financial systems or create new interaction experiences. The varieties of physical (paper-based) systems used also shows a great potential for more physical systems. Furthermore, personal financial management tools could also include encouraging prompts and have a more granular approach to privacy, e.g. filtering content based on who is looking.\\
+
+
+Despite the small number of HCI studies within the area of personal financial management, Kaye et al.’s article serves as a great starting point for this thesis. They point out that financial decisions are not solely based on rational reasoning and that being aware of one’s economic state is tightly coupled to the act of observing transactions patterns and looking for anomalies. As Snow and Vyas \cite{snow2015fixing} they also highlight the misalignment between commercially available products and actual financial practices, and foresee a high potential for more physical products. As their study was carried out in America, it might not be directly applicable to the European citizens and culture, therefore, in the next section, we describe a European study that segments financial customers based on their attitude and stance towards finances.
+
+
+#Economic Awareness: knowledge, understanding and perception of financial interactions.
+#FinTech has become the a hot topic in modern digitalized societies, however it seems to be difficult for HCI practitioners to keep up with the industry.
+#Improve financial management
+#Budgeting: an ephemeral activity which is often discontinued over time (create a baseline and do not deviate too much from it). One question is how to sustain a healthy economy once a budget has been created. Also, eliminating the need to spend time on manually provided information to the system.
+\subsection{Segmenting Financial Customers}
+\label{sec:segmenting-financial-customers}
+This section presents information from a report developed by Forrester Research in 2006 \cite{ensor2006segmenting}. Although the report is more than 10 years old the data presented is still relevant today as it seeks to enlarge the traditional strategies for customer segmentation. In this thesis we will use this information as a way to understand and describe our participants’ financial motivation, behaviour and attitude.\\
+
+
+According to \cite{ensor2006segmenting} the web has for many become the main source of information. Complex decisions are often based on knowledge obtained from the web and people regularly use online resources when researching for financial decision. Alongside this tendency many customers steadily adopt new service technologies leading to an increase in number of channels (phone, email, forms, etc.) used to reach the same goal. This increase is not only supported by our client’s data but it also shows that the mobile channels are on the rise compared to the more traditional platforms (see figure~\ref{fig:TO FIGURE}). To accommodate this change of behavior banks need to have an effective way of segmenting customers in order to reach a better understanding of customers’ decisions. Historically speaking customer segmentation is not new to most financial service companies, however the the current segmenting dimensions -- i.e. demographics, contribution, behaviour and attitude -- do not fully capture the complexity of customers’ behaviour. In general each dimension encompasses advantages and disadvantages, but the most useful and least ephemeral dimension is attitude since people's economic stance change relatively slowly, it is applicable to all customers and it provides a valuable insight into people’s behaviour \cite[p.~2-8]{ensor2006segmenting}.\\
+Based on financial attitude customers can be divided into four different types. They are as follows: Self-Directed, Validators, Delegators and Avoiders – an overview of each type can be found on figure~\ref{fig:cutomer-types}.\\
+As the name implies Self-Directed customers are highly independent and in most cases make financial decisions without consulting a financial adviser. They often have a strong interest in finances, understand financial products well and make research before making any decisions. Perhaps surprisingly, not all Self-Directed customers are willing to run financial risk for a higher return, and when it comes to more complex decisions such as pension or tax they seek advice from professionals. Compared to the other types they tend to have a better education and work full time.\\
+The second type is Validators. They have the same kind of interest in economy as the Self-Directed but lack some confidence when it comes to making decisions. For moderately complex problems the Validators seek out financial advice, but are, in comparison to the Self-Directed type, more willing to take financial risks for a higher return. Out of the four types, Validators seem to have the healthiest economy.
+The third type, Delegators, find finances boring and/or confusing. They would rather spend time on something else and is prepared to give up control to more knowledgeable people. When dealing with finances half of the Delegators wish to talk to other people and from a demographic perspective there is a slightly higher occurrence of women in this category.\\
+The last type is more or less oblivious to finances. Avoiders do not have much trust in financial services or advisers, and as a result they tend to neglect their finances completely. Consequently, they usually have an unhealthy economy while their lack of financial knowledge make them more risk-averse because they are not able to grasp the repercussions of their actions \cite[p.~10-11]{ensor2006segmenting}.\\
+According to the report the easiest way to spot which segment a given customer belongs to is through their behaviour, e.g. Validators are more likely to buy products through a financial adviser whereas the Self-Directed would probably do it online without consulting a professional. Furthermore, the various types seem to prefer different channels (ATM, internet, branches, etc.) and therefore this can also be used to uncover the type of a customer.
+
+
+#GRAPH HERE!
+
+
+The customer segmentation and the fact that customers’ interest in personal financial matters vary a lot, needs to be taken into consideration because it will inevitably influence our findings. Hopefully, being able to make that distinction between different types of users will help us in making more informed decisions hence make better designs.
+
+
+#High expectations. If the quality or the number of technological services do not fully live up to the customers expectations, there is a high risk of losing a customer. 
+#Customer empowerment
+#Our personal finances and the way we manage them are often reflected in our decisions.
+\chapter{Methods} (~ 1-1,5 pages)
+//NOTE: This chapter should maybe be part of the individual sections the methods are related to.
+//Research through design
+//Data gathering methods: interviews, cultural probes, workshop
+\chapter{Establishing a Direction} (~10-15 pages)
+This chapter outlines our efforts to establish a direction in the domain of technologically mediated personal financial management in the home. The interviews and workshop presented in this chapter constitute the empirical foundation for our understanding of the domain. The interviews seek to create initial insights into how the users handle financial management with a focus on behaviors in the home. The workshop focuses on how the users handle their finances in the home but additionally provides insights into how the attendants would like future banking experiences to feel like and be integrated in the home.
+
+
+#Lastly, a summary of the findings is presented with emerging themes.
+#Cleaner description of the chapter
+#Introductory section explaining in more detail what we have done, how and why
+#Make a clear connection to “Framing the domain” chapter: Building on the knowledge we have obtained on the domains of personal financial management and designing for the home, we seek to investigate the intersection between these two domains. 
+#Prior knowledge: how to merge the context and personal financial management → home banking
+#Try to validate some of the findings from Kaye et al. (is it applicable to European citizens?)
+#Personal value set
+#How people interact with finances in their home
+#Target group, why, attitude, demographic characteristics: exclude avoiders, what we find might be applicable to the average user, however we have tried to look at “families” (people living together with some kind of social bond) as their social construction increases the level of complexity and imposes some interesting areas to investigate. Communication/coordination in the home
+#Gain knowledge about how people handle their personal finances in general and more specifically how they do it in the home (domain = personal finance + home context)
+#Short paragraph/section with more detail on why we have conducted interviews and a workshop? What are we trying to achieve and where is it leading?
+#Perspective on home banking and economic awareness OR customer empowerment
+#Convey data rather than creating a tools for financial interaction.
+\section{Preliminary Interviews}
+This section presents three preliminary interviews that were conducted in the early stage of this project. Each interview aimed to obtain some general knowledge about (our target group’s) financial habits, behaviour and value-set. We conducted an interview with a financial adviser, a woman living with her husband and two kids, and a young couple living together. All interviewees are anonymized in order to maintain integrity and the main findings from these interviews are presented in separate sections. The interview with the financial adviser was held in person and documented using voice recording and notes, while the interviews with our target group members were conducted via Skype using screen recording and phone using voice recording, both complemented with notes. The interview guides used for the interviews can be found in appendix~\ref{app:interview-guide-financial-adviser,app:interview-guide-families}.
+
+
+#maybe include that all interviews were transcribed
+#maybe say something about the questionnaire used for screening
+\subsection{Financial Adviser}
+Prior to the interviews with our target group we conducted an unstructured interview \cite[chapter~7]{sharp2007interaction} with Michael; a 34-year-old senior adviser from Danske Bank with more than ten years of experience within financial counselling. The primary goal of the interview was to gain an overall understanding of how people manage their finances on a daily basis, and how the relationship between a financial adviser and an ordinary customer is currently functioning. The interview lasted around 40 minutes.\\
+
+
+After the introduction and the warm-up questions our main session started, and after some time it became relatively clear that many of the answers to our questions resided in the advancement of technology. Before his job at Danske Bank, Michael worked at a smaller bank and he described how he, on a daily basis, had more personal contact with the customers. He mainly ascribed this difference to the amount of financial services offered to customers of Danske Bank, as they now have the opportunity to handle simple financial tasks on their own. Even though it might seem a bit contradictory at first the wide range of services available to bank customers has resulted in a higher focus on customer care as the financial advisors no longer have to perform the same amount of trivial tasks. As Michael describes it: \emph{“...a lot of our things [daily tasks] have changed because of IT solutions, I mean, the customers can actually do a lot [economic related tasks] at home…”}.
+During our interview we also asked what he saw as the main reason for unfortunate economic situations and how this could lead to an unhealthy economy. In his perspective undesirable economic situations were often caused by a lack of framing (no budget), and the fact that future projections are difficult to make. Another, yet very important, aspect is how new (young) customers decide on which bank they want to take care of their money. Michael told us about how some people have chosen Danske Bank due to its financial services: \emph{“...many customers have opted for Danske Bank because of it [technological services], as others [banks] do not offer as advanced solutions”.} Seeing how banks keep pushing new features to their digital platforms and how customers embrace these features by fast adoption, lead us to believe that self-service and customer empowerment are two key factor in future banking.
+\subsection{Family Mother}
+We conducted a semi-structured phone interview \cite[chapter~7]{sharp2007interaction} with Charlotte, a 28-year-old woman living in Western Jutland, Denmark, with her husband and two children. Charlotte works a part time job as a nurse and her husband works full time as a mason. The phone interview was performed on a Thursday morning and took approximately 45 minutes. 
+
+
+When asked to describe her economy, Charlotte quickly focused on the changes that had happened economically between her life as a student and a nurse. She used to plan for grocery shopping and make detailed budgets but has become unstructured in this regard as her priorities have changed: \emph{“... back then when we had no money we were really good at prioritising. I used to look in offer catalogs, do meal planning and all those things but it all just went out the window”}. She now values vacations with her family highly and describes how they will even take unpaid leave to go on long trips. Her economic values and behavior have changed dramatically with the change in her life situation -- that is having kids and a reliable source of income. 
+Charlotte values everyday financial insights because it makes her feel in control. She logs into her online bank daily to check up on transactions and make sure that everything is going according to the plan. She confirms that the correct amounts are withdrawn from her account for the purchases she makes and that her salary is deposited to her account. \emph{“For example just an hour ago, I ordered some new clothes for the kids online and then I go to see how it is going [on the netbank] quite instinctively. I do this because i like to be in control of the situation”}. Although Charlotte checks her transactions daily she does not calculate her weekly or monthly expenses in order to adjust her spending behavior but rather makes the adjustment based on intuition after glancing through her transactions. This habit of adapting her spending behavior reactively based on intuition is a way for her to stay in control after she stopped making budgets and knowing exactly how their money was spent.
+Charlotte always uses her smartphone or iPad when interacting with her netbank. She leads a busy life so she goes online in quick sessions in between household tasks and as such fits her banking activities into the flow of her everyday life: \emph{“I often log on at the kitchen table. I would say that i am almost never sitting in the couch. We lead busy lives, when the kids are put to bed I have to do the laundry for example and then I will often sit at the kitchen table for five minutes [on the netbank]”}.
+\subsection{Young Couple}
+Our last interview was a semi-structured with Hanna, a 25-year-old woman working as a physiotherapist, and her boyfriend, Christian, who used to work as a physiotherapist but now pursues a career as a pre- and middle school teacher. They live together in Aalborg which is located in Northern Jutland in Denmark. The interview was conducted via Skype with screen and audio recording and lasted approximately 50 minutes.\\
+
+
+When asked to characterize their financial situation Hanna and Christian described it as shaky as they currently found themselves in a transitional phase in life with a fluctuating number of work hours and career change, yet they felt comfortable and in control. In contrast to Charlotte (from the previous interview), Hanna and Christian do not have a shared economy. They, however, have a number of shared expenses such housing costs and groceries, therefore they have set up an account for this purpose; they deposit a fixed amount of money every month and the shared expenses get withdrawn from there. Hanna hinted that this kind of solution kept them from arguing about financial matters: \emph{“We deposit money each month for the shared expenses, so we don’t have to discuss how much we [individually] have to pay”}. Later on in the interview, when asked how much time they spent on financial doings, Hanna underpinned this statement by saying that the subject of economy was perhaps not the most pleasant thing to talk about. Approximately once a week they go online to check up on their finances and they usually do this from an iPad or laptop. They make a quick glance at the transactions and from there go to e-Boks (an online mailbox used by the Danish government and some public/private companies) to cross reference with received bills and paychecks. By the end of the month the amount of financial checkups increases in order to make sure they stay within their spending limits. Christian told us he uses a Visa Debit card (a non-credit card) and when asked if it was a way to avoid overspending he responded \emph{“Yes exactly -- I am more comfortable with that.”}. Because of their varying income they sometimes have to borrow money from one another and to keep track of their financial outlays they use a whiteboard located in the living room. They also use a big calendar and notes to keep track of their finances. They use these low-level tools to remind themselves of economy related deadlines and to keep each other informed at all times. 
+
+
+#Note: keeping each other informed (using a coordinate display) and making all financial actions transparent seems to have a positive impact on the social relationship between couples/people -- at least if the financial actions can have consequences for one another.
+
+
+#We intended to visit the participants in their homes in order to gain insights and contextual information.
+\section{Workshop}
+This section presents the exploratory workshop that we conducted to gather further information about people’s financial habits and value-sets related to a domestic context and more importantly to obtain insights into how people would imagine future banking experiences to unfold; both in terms of functionality and interplay between the context and technology. The workshop was carried out in two parts. The first being a series of warm-up exercises and the second work with a self-developed kit, that we call Exploration Kit, which was designed to help participants explore and express their ideas.
+
+
+The first half of the workshop was spent doing four exercises related to interactions with and feelings about economy. The point of these exercises was twofold; firstly it made the participants reflect upon their own economy in order to create a basis for ideation with the Exploration Kit and secondly it acted as a way to gain knowledge about the participants’ attitude towards economy and usage of current banking tools. The second half of the workshop was assigned to work with the Exploration Kit. The purpose of the kit was to enable the participants to come up with ideas for banking experiences in the home. Importantly the kit forced the participants to not only think of an abstract concept but also how it could be physically manifested in the home context. 
+
+
+The workshop was conducted in the evening and had a duration of approximately 2 hours. Ten people participated in the workshop, seven of which were male and three female. The ages ranged from 22 to 27 and the majority (seven out of ten) had a cohabitant or lived together with one or more people. All of the participants except one were university students and a little more than half of the students had a technical background whereas the other half was less tech-savvy.
+\subsection{Warm-Up Exercises}
+In order to establish an inspirational atmosphere and spark creativity we conducted a series of introductory exercises. These exercises aimed to capture some general knowledge about the participants’ background, technology usage and financial attitude. Many of the exercises were designed in the spirit of Gaver et. al’s Cultural Probes \cite{gaver1999design} as they strived to capture data in a more inspirational and imaginative manner.
+
+
+#Briefly introduce exercises?
+
+
+\begin{figure}[!h]
+        \centering
+        \includegraphics[width=\textwidth]{warm-up-exercises}
+        \caption{\textbf{Top left:} Some of the pictures created during the \textit{Draw your economy} exercise. \textbf{Top right:} Floor plans created in the \textit{Floor plan} exercise. \textbf{Bottom left:} Sequence of emoticons used to describe the emotional relationship with money in the \textit{Emoticonometer} exercise. \textbf{Bottom right:} Ballot papers from the \textit{Voting} exercise.}
+        \label{fig:warm-up-exercises}
+\end{figure}
+\subsubsection*{“Draw Your Economy”}
+We initiated the workshop with the task to “draw your economy”. This exercise was very much inspired by Kaye et al. \cite[p.~522]{kaye2014money} and was intentionally very open as the participants were told they could draw whatever came into their minds. The goal of the exercise was to make the participants reflect upon their own economic situation in order for them to use this as a foundation for the later ideation with the Exploration Kit. Furthermore, it gave us insights into the participants’ mindsets towards economy. 
+
+
+The drawings can generally be divided into two categories. The first category contains abstract drawings that try to convey the feeling the person is experiencing in relation to their economy, e.g. a man standing on top of the world or a man struggling to find water in the desert (see figure~\ref{fig:warm-up-exercises} top left picture). The second category contains more concrete and diagrammatic drawings related to spending or the money flow, e.g diagrams showing the spendings account balance over time or diagrams showing how the monthly income is spent in relation to different categories such as housing costs, leisure and groceries. Some participants combined the two categories to convey their general feelings or mindset about economy while also hinting at how they spend their money. One participant, who combined the categories, drew a person floating down a river (a stream of money) surrounded by food, gifts, clothes and so on.
+
+
+The ways the participants think about economy and spend money are numerous. However, there is a tendency towards an either very positive or negative attitude regarding economy.[a] Some participants portray their economy as struggling or unstable while others display joy and satisfaction. One participant drew himself on top of the world and explained that he was a big consumer and very deliberately purchased items related to his hobby which would result in positive emotional responses such as excitement or happiness. It was a common theme for people who had a positive attitude to focus on the possibilities and explicitly what made them happy. One participant valued holidays highly, another clothes and a third computer games and equipment. A participant with a negative attitude drew the Leaning Tower of Pisa and explained that he thought his economy was off balance because he did not care much about it and at times completely neglected it. Common for the ones with a negative attitude was the general dislike of economy as a subject and frequently neglecting it.
+
+
+#Something about how the different customers segments become evident in this exercise, maybe?
+\subsubsection*{Floor plan}
+In order to get a better understanding of how people organize and interact with their economy in the context we asked them to draw a floor plan of their residence and place different markers, representing various technologies or mediums, on this floor plan.
+As financial information is accessible from many different platforms, it comes as no surprise that information is not strictly bound to specific artifacts or locations. The artifacts used ranged from simple paper and Excel spreadsheets to the more multipurpose smartphone. Looking at the floor plans created during the workshop it becomes evident that the increased portability in digital devices has altered the way we connect with our economy and shows that – even though we are not completely aware of it – financial interactions are more omnipresent than ever before. Most of the participants used laptops, tablets and smartphones as a way to stay in touch with their economy, and no place in the home seemed to be “sacred”. The living room, kitchen and the bed seem to be most popular places to interact with economy, however only very few restricted their interaction with money to very specific places or rooms.
+
+
+#Describe with home context theory
+\subsubsection*{Emoticonometer}
+In one of the exercises we asked the participants to express how they felt about their financial situation. Inspired by the Smileyometer \cite{read2006using}, we provided the participants with a set of emoticons and asked them to answer three questions, e.g. “how is your relationship with the bank”, using these emoticons. We decided to use emoticons instead of hand drawn smileys as we feel the average user, having varying drawing skills, will be able to express their emotional state towards economy more precisely. Also, since the emoticons embody a wider and more diverse range of emotions it can no longer be characterized as a traditional Likert scale[b]. With this exercise we hoped to gain a better understanding of how people are emotionally engaged in different aspects of their economy and where there might be an opportunity for improvement. Based on the output from the workshop we see that people have mixed feelings about their economy (see figure~\ref{fig:warm-up-exercises} bottom left picture). The participants used very different emoticons for the same questions, however most of the participants used a somewhat positive emoticon to express their personal economy, whereas the topic of talking economy with others and the relationship with the bank were more diverse[c]. This is very much in line with the first exercise where people drew their financial situation.
+\subsubsection*{Voting}
+In the last exercise we asked the participants to fill out a ballot paper (see figure~\ref{fig:warm-up-exercises} bottom right picture) where they indicated any technology they had used to manage their personal finances on that particular day. This resulted in the following distribution:
+
+
+\vspace{12pt}
+\begin{itemize}
+        \item E-bank: 1
+        \item Mobile e-bank: 3
+        \item MobilePay: 5
+        \item Creditcard: 8
+        \item Cash: 1
+        \item WeShare: 1
+\end{itemize}
+\vspace{12pt}
+
+
+A clear pattern emerges showing that the old “technology” in the form of cash is on the retreat while the well established credit card technology is still the most prevalent. However, we see a rise in the adoption of new solutions namely MobilePay and mobile e-banking, which resonates well with the current trends of digitization. In this regard it is important to take the participants under study into account particularly their relatively young age. While young people are known to adopt new technologies faster, we believe that it is also part of a general tendency towards more rapid technology adoption.[d]
+
+
+#Maybe rewrite some of this. What are we trying to say finding wise?
+\subsection{Exploration Kit}
+In the second part of the workshop we introduced our Exploration Kit (see figure ~\ref{fig:exploration-kit}) which has been inspired by Rodden et al.s ‘physical jigsaw editor’ prototype \cite{rodden2004between}, where jigsaw pieces are used to build sequences as a way to compose various technology arrangements in the home. Our kit contains four main categories of pieces in different colors that are combined in a sequence and is meant to make the participants reflect upon various aspects of a new banking experience in a specific order. The categories are designed to help the participants to consider one part of the concept at a time instead of all at once, aiding them in the difficult process of coming up with new ideas and avoiding frustration or confusion. The first category \emph{data type} is concerned with the kind of financial information or action that is desired e.g. transactions or savings. The second category \emph{resolution} is regarding the resolution (level of detail) of the information that is manipulated; low resolution being simple information that is quickly understood but has limited information capacity and high resolution being complex information with unambiguous and detailed information. The third and fourth category is \emph{input} and \emph{output} respectively which deals with the modalities of the interaction and are intended to make the participants consider the physical manifestation and functionality of the concept by asking themselves questions such as \emph{how do you interact with it and what is the outcome?} and \emph{what should it look like and where would I like it in my home?}. Finally, the Exploration Kit contained two optional categories concerned with filtering and triggering of information; filtering being sorting data or selecting specific information to be inspected in more detail and triggering as in deciding when and how information becomes visible. These optional categories were designed to be additional considerations that could be performed after the main sequence was built and the outline of a new banking experience made.
+
+
+\begin{figure}[!h]
+        \centering
+        \includegraphics[width=\textwidth]{exploration-kit}
+        \caption{Overview of the exploration kit}
+        \label{fig:exploration-kit}
+\end{figure}
+\subsubsection*{Provotypes}
+The Exploration Kit was introduced to the participants along with two “provotypes” \cite{boer2012provotypes} that we created using the kit ourselves. These provotypes acted as an introduction to how the Exploration Kit should be used while also creating provoking thoughts on how financial technology in the home could look like. It was crucial for us that the provotypes were perceived as slightly odd or unconventional in order to instill a sense of creative freedom in the participants -- it was perfectly acceptable and desired to come up with silly ideas. One of the provotypes we presented was a scale (see figure ~\ref{fig:provotype}) to “weigh” financial transactions and get information on spendings in different categories. A cube with category-labels such as \emph{clothes} and \emph{transport} on the sides is placed on the scale to weigh the spendings in the category facing upwards. A bar on the scale indicates how much of the monthly budget that has been spent in the selected category, i.e. if the bar is 25 percent full it means 25 percent of the total monthly budget has been spent in that category. As stated we used the Exploration Kit in the creation of the provotype; the point of departure was the selection of transactions as the data type and a medium data resolution as we wanted the possibility to manipulate and explore the information to some extent. Thinking of the input category and consequently the interaction, we decided that touch or pressure would make for an interesting and alternative experience. Based on these constraints we started brainstorming on touch sensitive objects and interactive pressured based surfaces ultimately leading to the idea of a kitchen scale and the concept of weighing your economical transactions. Finally, we decided on light as an output in the form of a LED display that shows the relative spending in a given category.
+
+
+#add tangible word somewhere in the text
+
+
+\begin{figure}[!h]
+        \centering
+        \includegraphics[width=\textwidth]{provotype}
+        \caption{Kitchen scale provotype used to provoke and inspire the workshop participants}
+        \label{fig:provotype}
+\end{figure}
+\subsubsection*{Working with the Exploration Kit}
+In order for the participants to be more expressive we provided them with an assortment of materials (pen, paper, balloons, play dough, etc.) which they could use to externalize their ideas. In average each participant created two ideas using the kit of which many reflected some kind of personal experience with economy.        
+
+
+\begin{figure}[!h]
+        \centering
+        \includegraphics[width=\textwidth]{working-with-exploration-kit}
+        \caption{\textbf{Top left and right:} Participants working with the exploration kit. \textbf{Bottom left:} AI robot created by one of the workshop participants. \textbf{Bottom right:} Talking one-dollar bill concept created by one of the workshop participants.}
+        \label{fig:working-with-exploration-kit}
+\end{figure}
+
+
+One of the participants told us that he would often forget to read messages from the bank, therefore he envisioned a refrigerator magnet shaped like a one-dollar bill where a talking George Washington would read messages from the bank aloud (see figure~\ref{fig:working-with-exploration-kit} bottom right picture). Another participant also used an avatar-like data representation, however in a much more indirect and subtle manner. He imagined his finances represented as a fish in an aquarium and depending on the color and the behaviour of the fish as well as temperature and flow of the water would be able to infer the state of his finances. This idea stemmed from the fact that he spends many hours at a desk, therefore he pictured this kind of representation to be suitable and playful. Even though this kind of solution is simply an alternative representation of financial data, it will most likely induce a more reflective practice in relation to spending habits. One of the participants knew he would often spend money on what he called “stupid things” and therefore he designed a wallet with a built-in screen that would prompt him every time he bought something above a certain price tag. This type of enforced evaluation was not found among the other participants’ designs, yet some degree of quality assessment could be seen, e.g. represent financial status through colored light. A more radical design was an AI (artificial intelligence) robot with a multitude of functionality (see figure~\ref{fig:working-with-exploration-kit} bottom left picture) that was designed to replace the current financial advisers. The participant felt this kind of solution was needed as she had no trust in banks or advisers, and believed that an impartial robot would give her the best financial advices. A different participant developed a concept that did not involve a physical artifact. He envisioned a solution where financial data could be linked to the lighting system of the house (e.g. Philips Hue). Triggered by bodily movement the system would then be able to convey financial information through color and light intensity. Another concept that ended up being a big inspiration for our exploration process was the idea of turning information on and off. The person behind this idea described how financial information would appear/disappear on her wall based on eye tracking. For her, economy is an extremely sensitive matter and therefore she wanted to be in complete control over the visibility of information being conveyed. A recurring theme for many of the ideas was simple data representations (low resolution). Almost all of the participants used low to medium resolution when describing their idea which indicate that comprehensive data representations are reserved for existing solutions such as netbank or other applications.
+
+
+#Two of the participants did not care much for personal finances… Lars and Rune
+#Future oriented (reminders)
+#Introduction to the exploration kit. What is it and how does it work? (include picture that explains the different colors and maybe with an example of a sequence).
+#”Provotypes” → before asking the participants to use the kit we tried it ourselves. This resulted in two “provotypes” (pictures). Used to stimulate the participants’ imaginations.
+#How did the participants use the kit? (pictures) Which prototypes did they imagine (concrete examples)
+#Generalized findings. Which tendencies did we see in the participants’ suggestions?
+\section{Data Analysis and Initial Findings}
+This section summarises and combines the findings from the preliminary interviews and the workshop into emerging themes that are of particular interest in the domain of financial management technology for the home. We discovered the emerging themes by looking for general tendencies in the data which was achieved through affinity diagramming. Affinity diagramming is a technique where large amounts of data is grouped based on natural relationships and is often used in contextual inquiry as a way to organize insights from field studies \cite{beyer2010user}. The affinity diagram is built bottom up by grouping similar findings and then labeling them, resulting in a structure that reflects the weight of the data rather than our own preconceived thoughts and ideas. We created an affinity diagram for the workshop and one for each interview after which we combined them into one coherent diagram by connecting different data clusters using strings (see figure~\ref{fig:affinity-diagram}). From the accumulated affinity diagram we derived some general themes that will be described in the following sections. Some of the emergent themes are equatable or related to the research areas presented in chapter~\ref{ch:framing-the-domain} and therefore serve as a validation of the relevance in our domain.
+
+
+\begin{figure}[!h]
+        \centering
+        \includegraphics[width=\textwidth]{affinity-diagram}
+        \caption{Accumulated affinity diagram created based in the preliminary interviews and the workshop}
+        \label{fig:affinity-diagram}
+\end{figure}
+
+
+#The diagram is not solely based on the data presented in the previous sections as some of the post-its represents a statement or attitude.
+\subsection{Technology Arrangements}
+The first theme is based on the interplay between the existing ecology of technologies and contextual behaviours (i.e. routines). As reported in the floor plan and voting exercises users utilize a wide array of tools when seeking out and managing financial information. Many of these tools (e.g smartphones or tablets) are portable and can be used at different locations in the home (bed, kitchen table, couch, etc.). This exemplifies that spatial freedom, more specifically the ability to undertake tasks anywhere, has become of high value among many users. Due to their portability many of these devices can be integrated into existing routines but can also provide a foundation for new ones. In the interview with Charlotte we found that she had created a routine where she would check up on her finances at the kitchen table in between household activities. The portability of her devices (smartphone and tablet) allowed her to integrate financial activities into her existing routines. The interview with Michael, the financial adviser, revealed that banks are constantly pushing new functionality to their existing applications as customers -- especially young customers -- expect much from the financial services provided by the banks. This shift towards customer empowerment through self-service also led us to believe that providing the users with portable financial technology that can be configured to work with existing domestic technologies and routines serves as a promising direction for further exploration.
+
+
+\subsection{Seamless Context Integration}
+We found the theme of context integration to be recurring in many of the participants’ ideas and concepts in the work with the Exploration Kit. In one of the more radical cases a girl wanted her financial information to be displayed on her wall but only when she glanced at it and was alone in her home. She found economy to be extraordinarily sensitive compared to other personal information and when asked to elaborate on the reasoning behind her idea, she responded: \emph{“I want to make absolutely sure that I’m the only one inspecting my financial information. I think it is very private data that I don’t want to share with anyone”}. Her concept is highly motivated by privacy which explains her wish for the technology to be so integrated in the context that it is able to completely disappear. Other participants valued the aesthetic character greatly, that is, creating a concept that fit stylistically into their homes. Many participants achieved this by making concepts about Interactive Household Objects, i.e. making existing artifacts in their homes “smart”; one participant created a concept with a digitized fish tank where the health of the fish reflected the user’s economic status. Another participant made a concept with a smart key hanger that would brief the user on their economic status as they left the home. These wishes to make the technology at home resonates well with the findings made by Hughes et al. \cite{hughes1998understanding} stating that the aesthetics are important for the technology to be accepted and integrated in the home. We find that designing for a seamless context integration can be a great way to obtain technology adoption and use, especially when designing technology that deals with sensitive data.
+\subsection{Daily Routines}
+Routines are commonplace in everyday life and they are especially prevalent in the domestic context. As described by Tolmie et al. \cite{tolmie2002unremarkable} in the previous chapter, routines help us get through the repetitive tasks of everyday life by undertaking sequences of practical action without hesitation or mental effort. We see several examples of routinely behavior in both our interviews and the workshop. In the workshop one participant designed a key hanger to get briefed on his economy as he left the house. In this case, picking up the keys at a designated place before leaving the house is clearly part of a routine that is performed to remember certain items. It made sense for him to augment this routine with information about his economic status, as he rarely checked up on his balance. He believed it would help him spend his money more rationally as he would avoid impulsive purchases when his balance was low. In the interview with Charlotte, a family mother, she reported how her banking activities were intertwined with household routines e.g. checking up on transactions in between tucking in the kids and doing the laundry. Christian and Hanna described how they routinely used a whiteboard as a way to coordinate their activities and keep track of their finances. We believe that our findings regarding routinely behavior in the home as well as the literature on designing technology for the home support routines as a theme for further exploration. 
+
+
+#Ecology: how can solutions be integrated into existing solutions (e.g. from netbank to e-boks)
+\subsection{Data Representation}
+In many of the concepts developed during the workshop, simple data representations seemed to be preferred over more complex and detailed ones. A few of the concepts even had a more abstract nature (e.g. showing financial information through a fish and its habitat) which can be viewed as a way to govern sensitive data from the “outside world”. If information is encoded in such a way that the intended receiver -- usually the person owning the data -- is the only one who can make sense of whatever information is visible, then relatively sensitive data can be conveyed without compromising personal privacy. However, this places a higher demand on the receiver as he/she should learn to decode information and do so without too much mental effort. Another important point about the low to medium data representations is that data becomes more perceivable as less information needs to be conveyed. Keeping the information density low decreases the users’ cognitive load and consequently makes information more glanceable. As found in the interviews from the previous sections and the work done by Kaye et al. \cite{kaye2014money}, users tend to engage with finances in very short time periods and when doing so, they make sense of their financial data by looking at transaction patterns and anomalies. Therefore a lot can be gained by working with the data representation in the context of economy.
+#Therefore we believe that working with data representation is an important theme in the context of economy / personal financial management
+
+
+#Importance of information
+#Part of the routine → get a sense of the state by glancing at the data representation
+#Small section that describes how we worked with the data and how the “final” categories emerged. 
+#Summarises and combines the findings from the preliminary interviews and the workshop (intro)
+#Emerging themes in the domain of financial management technology for the home
+\chapter{Related Work} (~5-7 pages)
+This chapter presents related work in the areas of Ambient Information Systems, Informative Art and Personal Informatics. First, the field of Ambient Information Systems is presented including a taxonomy consisting of four design dimensions that have informed many choices in our design process. Then, Informative Art is introduced with high emphasis on designing aesthetic objects for the architectural space that promote brief moments of attention and reflection. Lastly, work in the field of Personal Informatics with focus on self-reflection is presented.
+
+
+Findings from previous chapters about privacy, routines and context integration indicate that the field of Ambient Information Systems is highly relevant in designing personal financial management technology for the home. This is because these systems focus on blending into the environment and presenting information in subtle ways that can potentially only be understood by the owners of the systems. In this regard we find that Informative Art is a particularly good source of inspiration. Furthermore, we believe that knowledge about Personal Informatics and self-reflection is valuable as it is highly related to data representations, which 
+#Briefly motive personal reflection section as well?
+\section{Ambient Information Systems}
+Since the foundation of Ubiquitous Computing, thoughts of calmer and more environmentally appropriate and integrated ways of conveying information have appealed to researchers and designers. This is largely contributed to Weiser’s visions about “calm computing” \cite{weiser1997coming} where he describes technology that is able to shift to the user’s attention when needed and otherwise stay calmly at the user’s periphery. Different directions of research that built on Weiser’s visions goes by various names such as “peripheral displays”, “ambient displays” and “notification systems”. These have all been brought together by Pousman and Stasko who propose the term Ambient Information Systems (AIS) for this overall body of work \cite{pousman2006taxonomy}. To understand the differences between these sub-domains one has to understand the underlying design motivations that informed them. The category of peripheral displays is the broadest and contains systems that may appear in the environment, on a secondary or even primary computer display. Ambient displays are a subset of peripheral displays, that are highly motivated by aesthetic goals and aspire to convey a small number of information elements. Notification systems are motivated by divided attention situations, where work tasks can be either primary or secondary in their attentional requirements. In the case of secondary work tasks these systems can be defined as peripheral. 
+
+
+#Maybe add somewhere in the text that AIS is an umbrella term – this makes it a lot easier to justify our use of it.
+
+
+AIS as a direction of study are defined by Pousman and Stasko to have specific behavioral characteristics \cite{pousman2006taxonomy}:
+
+
+\vspace{12pt}
+\begin{itemize}
+        \item Present information that is important but not critical. 
+        \item Able to move from the periphery to the focus of attention and back again
+        \item Focus on tangibility and representations in the environment
+        \item Undistracting subtle changes that reflect updates in information
+        \item Aesthetically pleasing and environmentally appropriate
+\end{itemize}
+\vspace{12pt}
+
+
+#Wrap up: describe AIS using the five characteristics (Instead of list?)
+
+
+In designing AIS decisions must be made regarding how much information to display, the specific aspects or elements to depict and how to display it. In the context of these decisions Pousman and Stasko present a taxonomy consisting of four design dimensions that constitute the space of AIS \cite{pousman2006taxonomy}: \emph{information capacity}, \emph{notification level}, \emph{representational fidelity} and \emph{aesthetic emphasis}. This taxonomy is essential to our work as it has informed the design choices in our exploration of the design space. For this reason the four design dimensions of the taxonomy are explained in relatively high detail in the following sections.
+\subsection{Information Capacity}
+Information capacity is described as the number of discrete information sources that a system is able to represent. Some system are only capable of displaying a single piece of information whereas others are able to display numerous or arbitrarily many. Pousman and Stasko call these pieces of discrete information “nuggets”. They argue that there is a design trade-off between space and time when considering information capacity. The information capacity of a display can be increased by expanding the space for information or by making the display transition through several views over a period of time. A system that uses multiple views or loops through views is naturally rated as having high information capacity since there, theoretically, is no limit to the number of information nuggets. Systems that have low ratings are typically physical displays that are purposely built to convey specific information using few information nuggets.
+\subsection{Notification Level}
+The notification level describes the degree to which system notifications are designed to interrupt the user, which directly relates to the relative importance of the information being conveyed -- the importance of the information should reflect the attention it demands. Pousman and Stasko base this design dimension on the work of Matthews et al. \cite{matthews2004toolkit} who define five notification levels: \emph{ignore}, \emph{change blind}, \emph{make aware}, \emph{interrupt} and \emph{demand attention}. These notification levels are grounded in attention literature that categorizes human attention into three types: \emph{inattention}, \emph{divided attention} and \emph{focused attention}. Inattention means that objects do not call for conscious awareness but may still affect behavior. In divided attention, stimuli is perceived such that attention is distributed over several objects and in focused attention all attention is focused on a single stimulus. Change blind represents information of minimal importance that is displayed in a way to not affect conscious awareness, corresponding to inattention. Make aware portrays information of some importance that calls for some attention, corresponding to divided attention. Interrupt and demand attention represent important information that should capture focused attention, meaning that the user is distracted from his current activity to attend to the system. Furthermore, demand attention also requires the user to perform some kind of action to stop the alerting. Notification level can be considered as the ambience of the system; systems that focus on unobtrusive make aware and change blind notifications are at the core of the ambient information system design space, while systems that use the interrupt or demand attention levels are further from the core.
+\subsection{Representational Fidelity}
+Representational fidelity describes an ambient information system’s display components and how data is encoded into words, sound, patterns and pictures. It can be thought of as the level of abstraction, where some systems portray the information being monitored very directly while others provide purely abstract representations. Pousman and Stasko describe representational fidelity using the theory of Semiotics, which is the study of signs and their meanings. A semiotic sign consists of three core parts. The object is called the \emph{signified} and is the physical thing or idea that the sign represents. The \emph{signifier} is the representation of the object (the signified) and \emph{sense} is the understanding that one arrives at from observing or experiencing the signified or the signifier. Semiotic signs can be \emph{symbolic}, \emph{iconic} or \emph{indexical} which can be directly translated to different levels of representational fidelity (from low to high respectively). Symbolic signs correspond to low fidelity because they are abstract and require some kind of rule-following convention to understand e.g. numbers, language characters and abstract visual representations. Iconic signs have a medium representational fidelity as they contain some transparency regarding the signified object e.g. metaphors and drawings. Lastly, indexical signs have a high representational fidelity as they are directly linked to the signified object, for example photographs.
+\subsection{Aesthetic Emphasis}
+The last design dimension is aesthetic emphasis which focuses on the importance of the aesthetics of the system. Judging aesthetics is fundamentally a subjective endeavour which makes it unfit to objectively decide a system’s aesthetic emphasis, therefore it is instead judged on the significance given to the aesthetics by the designers. High aesthetic emphasis is common when designing for visually pleasing displays intended to leverage the work of artists or for physical AIS that are often sculptural in their designs. Systems that are considered to be of medium aesthetic emphasis are those that are not intended to be art objects but are still explicitly intended to be seen as calm and visually pleasing systems. Lastly, systems that prioritise information conveyance over aesthetics are considered to have low aesthetic emphasis but they can still be calm and environmentally appropriate even though there is no explicit focus on aesthetic aspects. 
+\section{Informative Art}
+In 2000 Redström et al. \cite{redstrom2000informative} presented the idea of Informative Art. They denote Informative Art as a combination of artwork and various objects/surfaces through which digital information can be presented. It is described as a type of slow technology, i.e. it promotes moments of attention and reflection, and aims to \emph{“...augment a traditional notion of art objects, turning the given type of design surface into an abstract information display”} \cite[p.~104]{redstrom2000informative}. By embedding small pieces of digital information into structures or compositions Informative Art strives to give invisible information, such as website traffic or e-mail activity, form through digital artwork. Since Informative Art is designed to occupy architectural space, very much like paintings and posters, and is viewed as an integrated part of the physical environment a high focus on visual aesthetics is needed. This focus on aesthetics can be found in Pousman and Stasko’s \cite{pousman2006taxonomy} article where they describe Informative Art, using their taxonomy, as having a relatively low information capacity, a medium notification level, a low to medium representational fidelity and a high emphasis on aesthetics. Also, as prescribed by the notion of AIS, Informative Art is a type of technology that is designed to support peripheral information. In relation to their notation about technological artwork Redström et al. uses a term called Amplified Reality. They describe it as \emph{“... the enhancement of expression or functionality of artefacts using technology”} \cite[p.~105]{pousman2006taxonomy} where the central point is on the physical presence of artifacts and not on some superimposed digital information laid on top of the “real world”. In other words, it is about enriching the expression of the real world rather than enhancing the impression of it.
+
+
+In 2002 Holmquist and Skog \cite{holmquist2003informative} presented an Informative Art installation which was exhibit at the SIGGRAPH 2001 Emerging Technologies. Using a set of projectors, a laptop running various Java applications and white textile they depicted different types of data through artwork. One of the more interesting pieces of art was Soup Clock; a simple egg timer. Through a repeated pattern of asparagus (yellow) and tomato (red) soup cans the passing of time was illustrated -- in the beginning of time the graphic only shows yellow soup cans and as time passes a yellow soup can gets substituted with a red soup can. A decade later Fan et al. \cite{fan2012spark} attempted to use Informative Art to visualize personal activity using data from Fitbit (a personal activity tracker). Through a tablet, placed in a common space in the home, the participants could select between different types of abstract data representations that pictured step count and intensity. When interacting with the system the participants could obtain more details like time for the exercise and exact step count. By the end of the paper Fan et al. presents three elements that seemed to motivate their participants, namely the use of color to indicate activity intensity, movement in the graphic and filling up the screen with graphic. All these visual rewards might also be applicable to our project.
+
+
+For our work we find the technical implementation for Soup Clock very interesting as it can be used to augment an existing architectural space and thereby creates a sense of domestic “belonging”. Even though Fan et al.’s solution does not have a high emphasis on visual aesthetic -- at least we do not view tablets as visually pleasing -- there is something to be learned from their work on personal informatics and data representation. The work of Informative Art resonates well with our findings from the workshop, and therefore we have used it as a source of inspiration for our project.
+
+
+#Domestic atmosphere
+#Visual aesthetic vs. context integration.
+#Less abstract, more functionalist/pragmatic 
+\section{Personal Reflection}
+As technology matures and becomes more ubiquitous the ease of gathering personal information grows. According to Li et al. many tools have been developed to utilize this data in order to support self-reflection, yet these tools do not seem to meet the users’ needs \cite{li2011understanding}. In previous work Li et al. described these tools using the term Personal Informatics systems which is \emph{“...systems that help people collect personally relevant information for the purpose of self-reflection and gaining self-knowledge”} \cite[p.~558]{li2010stage}. To achieve a better understanding of the problem space for Personal Informatics, Li et al. conducted a study where they set out to investigate what kinds of questions people usually asked about their data and why \cite{li2011understanding}. They identified the following six categories of questions: Status, History, Goal, Discrepancies, Context and Factors. Status refers to act of glancing at some data to determine whether or not a goal (e.g. drink two litres of water each day) has been met and if an action is needed to do so. History can be described as looking for trends and patterns in long-term data in order to get a sense of the overall progress (e.g. being on the path to achieve a goal or not). The third category, Goal, can be formulated in various levels of abstraction, however Li et al. use two types of goals, namely principle goal and program goal. Principle goals are related to achieving an ideal, for instance to become more productive, whereas the program-level goal represents a specific task which needs to be performed in order to achieve the principle goal, e.g. spend less time on social media. Discrepancies is somewhat intertwined with the Status category as it denotes the action of looking at the current status and then compare it with the goal, e.g. what is the difference between the goal and the current status. The last two categories, Context and Factors, are related to events or elements that in some degree influence the progress towards the goal. For instance, is food going to have an impact on the productivity.
+
+
+In the pursuit of self-knowledge Li et al. found two phases to be prevalent. The first phase is the Maintenance phase where users have identified their goals and know which factors that have an affect on their progress. Users in this phase will often ask questions within the categories of Status and Discrepancy. The second phase is called Discovery and is characterized by a lack of goal and often users have failed to identify the factors that have an impact on their behaviour. People in this phase are asking questions regarding the History, Goals, Context and Factors. Depending on the phase different strategies can be applied to support the users, for example in the Maintenance phase it can be a good idea to alert the users when they are not meeting their goal.
+
+
+As we are trying to develop an artifact for economic awareness an understanding of Personal Informatics is paramount. We aim to make use of the basic ideas presented in this section as we believe this will benefit our work greatly.
+\chapter{Exploring the Design Space} (~15 pages)
+#Introduction
+#Preparing workspace: Picture stimuli etc.
+#Briefly talk about approach
+\section{Ideation}
+#Brainstorming in emerging themes
+#Which kind of ideas were prevalent?
+#Pictures
+\section{Low fidelity prototyping}
+#Description of the three developed prototypes. How do they fit the themes (why did we choose to pursue these ideas?)
+#pictures of prototypes
+#Informal evaluation / Focus group → choosing direction to explore further
+\section{High fidelity prototyping}
+#Investigation of clock designs
+#Material exploration
+#Graphical representation
+#Interaction exploration / Form and function
+#Designing for the themes. Context integration, routines, privacy?
+#Implementation of the prototype. Technologies, infrastructure etc.
+
+
+
+
+
+
+
+
+#Introduction: We are exploring the intersection between the domestic context and personal financial management with a technological focus on seamless context integration (high focus on physical aesthetic), data representation and routines. 
+#Figure: Different prototypes in an a figure with a property overview (properties elicited from the interviews and workshop). PART OF EXPLORING DESIGN SPACE?
+#Design process
+* Brainstorm
+* Low-fi prototypes: clock, programmable blocks for different modalities and a simple mug with an accompanying smartphone application.
+* Informal evaluation
+* Hi-fi prototype (iterations)
+* Long term evaluation(s)
+* In situ evaluation/workshop
+* Focus group
+
+
+#Picture of the wall with inspirational pictures
+#Investigation: Clock collection (designs and materials)
+#Material exploration: http://berglondon.com/blog/2012/12/19/lamps/
+#Exploration the graphical representation: spendings trajectory, 
+#User constructs and interaction
+#Customer Empowerment: customize information/representation, work on a home to make it feel like home, data rules?
+#Levels of emergence
+#Ecology: how should our solution fit into the existing banking solutions or home furnishing
+#Form and function
+
+
+#Design principles (related to emergent displays):
+* Objects should be meaningful in all states
+* “Seamless” context integration; also in choice of materials.
+* Support different levels of data emergence (layers of content)
+* Proximity
+
+
+#Design parameters diagram
+* Context integration
+* Privacy
+* Data emergence
+* Resolution
+* Data representation and complexity/dynamics – more dynamic content yields more flexible displays.
+* … 
+
+
+#Privacy discussion: When and how should the data be visualized when multiple people are in the context. Need for abstract representations?
+#Adaptation to multiple family members: When more people are present show more layers of information for the individuals or show common economy
+
+
+#Data emergence
+
+
+#UbiComp: The clock has strong links to ubiquitous computing as it is an internet-connected smart device that can update the information displayed as new data becomes available and potentially be connected to other relevant devices in the home. It is also remotely aware of presence in the room which allows it to display information whenever appropriate and fits well with Mark Weiser’s notion of calm technology as it is able to step completely into the background and disappear when it turns into an ordinary clock.
+Emergent displays may be a way to achieve the calmness that is required and expected from domestic technology.
+
+
+\chapter{Field Studies and Evaluations} (~5 pages)
+#Extended prototype evaluation (deployed in context)
+#In situ workshop or focus group?
+#Findings from the evaluation
+#Use the financial customer types to argue about findings from the evaluations: Which attitudes do the users have? Did the prototype support their current behavior or change their attitudes etc? Did they become more aware of their economical situation - did they adjust spendings?
+#How did the prototype fit into their home. Design, setup etc.
+#How was the prototype used? Did it become part of any domestic routines?
+#Critique of the prototype. Potential future work directions
+\chapter{Future Potentials} (~2-3 pages)
+#Things that we did not address that well
+#Reflection and discussion
+#We are not industrial designers or artists, therefore we might not be able to fully fulfill visual aesthetic criterias.
+#How to foster long-term engagement in Personal Informatics systems (see paper).
+#Emergent displays can be used for many activities at different locations in the home. 
+
+
+\chapter{Conclusion} (~ 1 page)
+
+
+[a]Relate to financial attitudes theory?
+[b]Seems slightly unmotivated
+[c]Commenting on questions that were not introduced
+[d]Is this relevant or even used afterwards?
