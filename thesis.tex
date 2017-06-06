@@ -7,6 +7,7 @@
 \usepackage{bookmark}
 \usepackage{parskip}
 \usepackage{pdfpages}
+\usepackage{float}
 \usepackage{titlesec}
 \usepackage{graphicx}
 \usepackage{color}
@@ -39,7 +40,7 @@
 \vspace{12pt}
 }
 
-\title{Increasing Economic Awareness Using Emergent Display in a Domestic Context}
+\title{Increasing Economic Awareness Using Emergent Displays in a Domestic Context}
 \author{Christian Hannesbo Lorentzen \and Lasse Legaard}
 \date{15\textsuperscript{th} of June, 2017}
 
@@ -105,6 +106,11 @@
 \label{ch:conclusion}
 \input{chapters/7-conclusion}
 
+%---------- bibliography -----------%
+\pagestyle{empty}
+\bibliography{references}
+\bibliographystyle{plain}
+
 %---------- appendix -----------%
 \appendix
 \addcontentsline{toc}{chapter}{Appendix}
@@ -114,10 +120,5 @@
 \addcontentsline{toc}{section}{Interview Guide -- Couple/Family}
 \includepdf[pages=-]{appendix/interview-families.pdf}
 \label{app:interview-guide-families}
-
-%---------- bibliography -----------%
-\pagestyle{empty}
-\bibliography{references}
-\bibliographystyle{plain}
 
 \end{document}
